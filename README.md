@@ -102,8 +102,7 @@ This project demonstrates **encapsulation, modularity, and composition** with `S
 3. Play Song
 4. Delete Song
 5. Exit
-
-- Enter choice: 2
+    - Enter choice: 2
 
 --- Playlist ---
 1. Believer
@@ -127,5 +126,4 @@ This project is licensed under the `MIT License`. See the `LICENSE.txt` file for
 
 ## ✨ Author
 
-`Nitesh Kumar`
-3rd Year B.Tech (CSE), Sharda University
+`Nitesh Kumar` 3rd Year B.Tech (CSE)
