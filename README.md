@@ -6,6 +6,7 @@ This project demonstrates **encapsulation, modularity, and composition** with `S
 ---
 
 ## 📌 Features
+
 - Add songs (with name, artist, and duration)
 - Display playlist with all songs
 - Play a specific song
@@ -75,17 +76,10 @@ This project demonstrates **encapsulation, modularity, and composition** with `S
 
 ## ⚙️ Installation & Compilation
 
-Clone the Repository
-git clone https://github.com/your-username/song-player-app.git
-
-Go to the directory
-cd song-player-app/Song_player
-
-Compile
-g++ main.cpp -o song_player
-
-Run
-./song_player
+- Clone: `git clone https://github.com/your-username/song-player-app.git`
+- Root directory: `cd song-player-app/Song_player`
+- Compile: `g++ main.cpp -o song_player`
+- Run: `./song_player`
 
 ---
 
@@ -118,20 +112,20 @@ Enter choice: 2
 
 ## 🚀 Concepts Used
 
-- Encapsulation: Data hiding with private members (Song, Playlist).
-- Composition: Playlist contains multiple Song objects.
-- Abstraction: User interacts with SongPlayerApp via menu, hiding internal logic.
-- Modularity: Code split into separate header files for maintainability.
+- `Encapsulation`: **Data hiding** with private members (Song, Playlist).
+- `Composition`: Playlist contains multiple Song objects.
+- `Abstraction`: User interacts with SongPlayerApp via menu, **hiding internal logic**.
+- `Modularity`: Code split into separate header files for **maintainability**.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the LICENSE.txt file for details.
+This project is licensed under the `MIT License`. See the `LICENSE.txt` file for details.
 
 ---
 
 ## ✨ Author
 
-Nitesh Kumar
+`Nitesh Kumar`
 3rd Year B.Tech (CSE), Sharda University
