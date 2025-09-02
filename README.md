@@ -75,7 +75,7 @@ This project demonstrates **encapsulation, modularity, and composition** with `S
 
 ## ⚙️ Installation & Compilation
 
-- Clone: `git clone https://github.com/your-username/song-player-app.git`
+- Clone: `git clone https://github.com/niteshkumar789/song-player-app.git`
 - Root directory: `cd song-player-app/Song_player`
 - Compile: `g++ main.cpp -o song_player`
 - Run: `./song_player`
