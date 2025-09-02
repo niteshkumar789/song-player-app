@@ -58,34 +58,6 @@ This project demonstrates **encapsulation, modularity, and composition** with `S
 
 ---
 
-## 📊 Sequence Diagram (Add & Play Song Flow)
-
-@startuml
-actor User
-participant "SongPlayerApp" as App
-participant "Playlist" as PL
-participant "Song" as S
-
-== Add Song ==
-User -> App: run() → select "Add Song"
-App -> User: Prompt for song details
-User --> App: Enter song name, artist, duration
-App -> PL: addSong(Song)
-PL -> S: create Song(name, artist, duration)
-PL -> PL: songs.push_back(Song)
-PL --> App: "Song added"
-
-== Play Song ==
-User -> App: run() → select "Play Song"
-App -> User: Prompt for song number
-User --> App: Enter song index
-App -> PL: playSong(index)
-PL -> S: play()
-S --> User: "Now Playing: <song details>"
-@enduml
-
----
-
 ## 📂 Project Structure
 
     Song-player-app
