@@ -90,12 +90,11 @@ This project demonstrates **encapsulation, modularity, and composition** with `S
 3. Play Song
 4. Delete Song
 5. Exit
-
-- Enter choice: 1
-- Enter song name: Believer
-- Enter artist name: Imagine Dragons
-- Enter duration (minutes): 3.5
-- Added: Believer
+    - Enter choice: 1
+    - Enter song name: Believer
+    - Enter artist name: Imagine Dragons
+    - Enter duration (minutes): 3.5
+    - Added: Believer
 
 ===== SONG PLAYER MENU =====
 1. Add Song
