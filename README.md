@@ -65,32 +65,29 @@ This project demonstrates **encapsulation, modularity, and composition** with `S
 
 ## 📂 Project Structure
 
-Song-player-app
-│
-├── Song_player/
-│ ├── main.cpp
-│ ├── Song.h
-│ ├── Playlist.h
-│ └── SongPlayerApp.h
-│
-├── LICENSE.txt
-└── README.md
+/*  Song-player-app
+    |
+    ├── Song_player/
+    |   ├── main.cpp
+    |   ├── Song.h
+    |   ├── Playlist.h
+    |   └── SongPlayerApp.h
+    |
+    ├── LICENSE.txt
+    └── README.md
+*/
 
-
-
----
 
 ## ⚙️ Installation & Compilation
 
 ### 1. Clone the Repository
-```bash
 git clone https://github.com/your-username/song-player-app.git
 cd song-player-app/Song_player
 g++ main.cpp -o song_player
 ./song_player
 
 
-🖥️ Sample Run
+## 🖥️ Sample Run
 
 ===== SONG PLAYER MENU =====
 1. Add Song
@@ -117,18 +114,18 @@ Enter choice: 2
 
 
 
-🚀 Concepts Used
+## 🚀 Concepts Used
 
 . Encapsulation: Data hiding with private members (Song, Playlist).
 . Composition: Playlist contains multiple Song objects.
 . Abstraction: User interacts with SongPlayerApp via menu, hiding internal logic.
 . Modularity: Code split into separate header files for maintainability.
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License. See the LICENSE.txt file for details.
 
-✨ Author
+## ✨ Author
 
 Nitesh Kumar
 3rd Year B.Tech (CSE), Sharda University
