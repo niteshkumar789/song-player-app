@@ -1,7 +1,3 @@
-# song-player-app
-A low level design of song player
-
-
 # 🎵 Song Player App (C++ LLD Project)
 
 A simple **console-based Song Player application** implemented in **C++** using **Object-Oriented Design (OOD)** principles and **Low-Level Design (LLD)** concepts.  
@@ -59,13 +55,11 @@ This project demonstrates **encapsulation, modularity, and composition** with `S
     | + run()               |
     +-----------------------+
 
-
-
 ---
 
 ## 📂 Project Structure
 
-/*  Song-player-app
+    Song-player-app
     |
     ├── Song_player/
     |   ├── main.cpp
@@ -75,17 +69,25 @@ This project demonstrates **encapsulation, modularity, and composition** with `S
     |
     ├── LICENSE.txt
     └── README.md
-*/
 
+
+---
 
 ## ⚙️ Installation & Compilation
 
-### 1. Clone the Repository
+Clone the Repository
 git clone https://github.com/your-username/song-player-app.git
+
+Go to the directory
 cd song-player-app/Song_player
+
+Compile
 g++ main.cpp -o song_player
+
+Run
 ./song_player
 
+---
 
 ## 🖥️ Sample Run
 
@@ -112,18 +114,22 @@ Enter choice: 2
 --- Playlist ---
 1. Believer
 
-
+---
 
 ## 🚀 Concepts Used
 
-. Encapsulation: Data hiding with private members (Song, Playlist).
-. Composition: Playlist contains multiple Song objects.
-. Abstraction: User interacts with SongPlayerApp via menu, hiding internal logic.
-. Modularity: Code split into separate header files for maintainability.
+- Encapsulation: Data hiding with private members (Song, Playlist).
+- Composition: Playlist contains multiple Song objects.
+- Abstraction: User interacts with SongPlayerApp via menu, hiding internal logic.
+- Modularity: Code split into separate header files for maintainability.
+
+---
 
 ## 📜 License
 
 This project is licensed under the MIT License. See the LICENSE.txt file for details.
+
+---
 
 ## ✨ Author
 
