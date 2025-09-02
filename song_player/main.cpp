@@ -9,45 +9,46 @@
         | + getName()        |
         | + play()           |
         +--------------------+
-
                 ▲
                 |
                 | contains
                 |
-        +--------------------+
-        |     Playlist       |
-        +--------------------+
+        +-----------------------+
+        |     Playlist          |
+        +-----------------------+
         | - songs: vector<Song> |
-        +--------------------+
-        | + addSong()        |
-        | + deleteSong()     |
-        | + getSong()        |
-        | + displayAllSongs()|
-        | + getTotalSongs()  |
-        +--------------------+
-
+        +-----------------------+
+        | + addSong()           |
+        | + deleteSong()        |
+        | + getSong()           |
+        | + displayAllSongs()   |
+        | + getTotalSongs()     |
+        +-----------------------+
                 ▲
                 |
                 | uses
                 |
-        +--------------------+
-        |   SongPlayerApp    |
-        +--------------------+
-        | - playlist: Playlist |
-        +--------------------+
-        | + showMenu()       |
-        | + handleInput()    |
-        | + run()            |
-        +--------------------+
+        +-----------------------+
+        |   SongPlayerApp       |
+        +-----------------------+
+        | - playlist: Playlist  |
+        +-----------------------+
+        | + showMenu()          |
+        | + handleInput()       |
+        | + run()               |
+        +-----------------------+
 */
 
-/*
-    SongPlayerApp/
-    │
-    ├── main.cpp
-    ├── Song.h
-    ├── Playlist.h
-    ├── SongPlayerApp.h
+/*  Song-player-app
+    |
+    ├── Song_player/
+    |   ├── main.cpp
+    |   ├── Song.h
+    |   ├── Playlist.h
+    |   └── SongPlayerApp.h
+    |
+    ├── LICENSE.txt
+    └── README.md
 */
 
 #include "SongPlayerApp.h"
